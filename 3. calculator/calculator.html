@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>3주차 계산기</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <main class="content">
+
+            <div  class="top">
+                <p id="output" ></p> 
+            </div>
+
+            <div class="bottom">
+                <div class="buttons">
+                    <button id="op" value="ce"           data-onclick="setButtons">CE</button>
+                    <button id="op" value="sqrt"         data-onclick="setButtons">√</button> 
+                    <button id="op" value="mod"          data-onclick="setButtons">%</button>
+                    <button id="op" value="div"          data-onclick="setButtons">/</button>
+
+                    <button id="num" value="7"           data-onclick="setButtons">7</button>
+                    <button id="num" value="8"           data-onclick="setButtons">8</button>
+                    <button id="num" value="9"           data-onclick="setButtons">9</button>
+                    <button id="op" value="mul"          data-onclick="setButtons">*</button>
+
+                    <button id="num" value="4"           data-onclick="setButtons">4</button>
+                    <button id="num" value="5"           data-onclick="setButtons">5</button>
+                    <button id="num" value="6"           data-onclick="setButtons">6</button>
+                    <button id="op" value="sub"          data-onclick="setButtons">-</button>
+
+                    <button id="num" value="1"           data-onclick="setButtons">1</button>
+                    <button id="num" value="2"           data-onclick="setButtons">2</button>
+                    <button id="num" value="3"           data-onclick="setButtons">3</button>
+                    <button id="op" value="plus"         data-onclick="setButtons">+</button>
+                     
+                    <button id="num" value="0"           data-onclick="setButtons">0</button>  
+                    <button id="num" value="00"          data-onclick="setButtons">00</button>
+                    <button id="op" value="dot"          data-onclick="setButtons">.</button>
+                    <button id="op" value="equal"        data-onclick="setButtons">=</button>
+            </div>
+        </main>
+    </body>
+</html>
